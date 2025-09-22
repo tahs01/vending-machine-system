@@ -34,7 +34,7 @@ A minimal, developer-friendly Docker setup for a Laravel application using **PHP
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/tahs01/Laravel-x-MySQL---Dockerization.git
+git clone https://github.com/tahs01/vending-machine-system.git
 cd vending-machine
 
 Copy environment variables
