@@ -23,7 +23,7 @@ services:
     restart: unless-stopped
     environment:
       MYSQL_ROOT_PASSWORD: rootpassword
-      MYSQL_DATABASE: laravel
+      MYSQL_DATABASE: vending-machine
       MYSQL_USER: laravel
       MYSQL_PASSWORD: laravelpassword
     ports:
