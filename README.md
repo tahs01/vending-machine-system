@@ -38,7 +38,6 @@ DB_PORT=3306
 DB_DATABASE=laravel
 DB_USERNAME=laravel
 DB_PASSWORD=laravelpassword
-SESSION_DRIVER=file   # or 'database' if you plan to use DB sessions
 ```
 
  4. Build and start containers:
