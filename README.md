@@ -25,7 +25,11 @@ A minimal, developer-friendly Docker setup for a Laravel application using **PHP
 
 ## Quick start (recommended)
 
-Minimum DB settings in `laravel-app/.env` (example):
+1. Git clone `git clone https://github.com/tahs01/Laravel-x-MySQL---Dockerization.git `
+
+2. Copy environment variables `cp .env.example .env`
+
+3. Minimum DB settings in `laravel-app/.env` (example):
 
 ```ini
 DB_CONNECTION=mysql
@@ -37,14 +41,14 @@ DB_PASSWORD=laravelpassword
 SESSION_DRIVER=file   # or 'database' if you plan to use DB sessions
 ```
 
- Build and start containers:
+ 4. Build and start containers:
 
 ```bash
 # from repo root
 docker compose up -d --build
 ```
 
- Generate app key & cache config:
+5.  Generate app key & cache config:
 
 ```bash
 docker compose exec app php artisan key:generate
